@@ -19,7 +19,7 @@ $keys = array(
 
 "test1"
 ); 
-$sub = $getgenv().["key"];
+$sub = $_GET["key"];
 if (in_array($sub,$keys,TRUE)) {
     echo "Whitelisted"; 
 } else {
